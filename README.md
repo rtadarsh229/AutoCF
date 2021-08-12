@@ -1,6 +1,6 @@
 # AutoCF
 An automatic test case parser that grabs test cases from Codeforces, feeds it to CppFastOlympicCoding and opens Sublime Text for you.
-[Video Tutorial will be added soon]
+[Video Tutorial](https://youtu.be/W5nxjhGT5Pc)
 
 # How to Setup:
 - Install the required dependencies
