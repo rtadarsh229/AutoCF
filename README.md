@@ -4,11 +4,11 @@ An automatic test case parser that grabs test cases from Codeforces, feeds it to
 
 # How to Setup:
 - Install the required dependencies
-- Clone the github repo
+- Clone the [repo](https://github.com/rtadarsh/AutoCF)
 - Place the main.py file in your desired folder
-- Open the Codeforces problem page on Google Chrome (Support for other sites and browsers will be added later)
+- Open the Codeforces problem page on Google Chrome
 - Open Command Prompt in the folder containing main.py (Ctrl-L -> cmd -> Enter)
-- execute the python file.
+- Execute the python file.
 - Now it will create a new folder containing your test case file and your cpp file and open Sublime Text for you.
 
 # Dependencies
@@ -20,3 +20,8 @@ An automatic test case parser that grabs test cases from Codeforces, feeds it to
 
 # Other Requirements
 - This script assumes that Sublime Text 3 command line interface is intalled at C:\Program Files\Sublime Text 3\subl.exe If Sublime Text 3 is installed at other location, modify the script at line 52.
+
+# Some more stuff
+ This script can only grab testcases from Codeforces open on Google Chrome. Support for other sites and browsers may be added later.
+ 
+ If you find anything broken, feel free to contribute ❤️
