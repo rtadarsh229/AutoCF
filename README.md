@@ -1,15 +1,23 @@
 # AutoCF
-An automatic test case parser that grabs test cases from Codeforces, feeds it to CppFastOlympicCoding and opens Sublime Text for you.
-[Video Tutorial](https://youtu.be/W5nxjhGT5Pc)
+An automatic test case parser that grabs test cases from Codeforces and feeds it to CppFastOlympicCoding or "input.txt" file
 
 # How to Setup:
 - Install the required dependencies
 - Clone the [repo](https://github.com/rtadarsh/AutoCF)
-- Place the main.py file in your desired folder
-- Open the Codeforces problem page on Google Chrome
-- Open Command Prompt in the folder containing main.py (Ctrl-L -> cmd -> Enter)
-- Execute the python file.
-- Now it will create a new folder containing your test case file and your cpp file and open Sublime Text for you.
+- If you use CppFastOlympicCoding
+    - Open Sublime Text -> Preferences -> Browse Packages. Copy the CMD folder here.
+    - Open cmd.py in CMD folder. In line 10, set script_filename as "olympic.py"
+    - In CppFastOlympicCoding settings, add this line: "tests_file_suffix": "__tests"
+    - Copy olympic.py in your desired folder where you solve questions
+- If you use "input.txt" and "output.txt"
+    - Open Sublime Text -> Preferences -> Browse Packages. Copy the CMD folder here.
+    - Place ip.py in your desired folder where you solve questions
+- Open Preferences -> Settings and add this line: "always_prompt_for_file_reload": false
+- Open the Codeforces problem page on Google Chrome (Don't minimize the browser)
+- Open your solution file. Right click and select 'Load Test Cases'
+- Continue writing your solution
+
+# TLDR: YOU ONLY NEED TO SET ONE FILE OUT OF OLYMPIC.PY AND IP.PY
 
 # Dependencies
 - install Python3
@@ -18,10 +26,9 @@ An automatic test case parser that grabs test cases from Codeforces, feeds it to
 - pip install pywinauto
 - pip install requests
 
-# Other Requirements
-- This script assumes that Sublime Text 3 command line interface is intalled at C:\Program Files\Sublime Text 3\subl.exe If Sublime Text 3 is installed at other location, modify the script at line 52.
+- If you find any other missing dependency, install it by using command 'pip install {Dependency name}'
 
 # Some more stuff
- This script can only grab testcases from Codeforces open on Google Chrome. Support for other sites and browsers may be added later.
+ This script can only grab testcases from Codeforces open on Google Chrome. Support for other sites and browsers may be added later (or maybe you can help me do it)
  
  If you find anything broken, feel free to contribute ❤️
