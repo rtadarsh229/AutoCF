@@ -11,7 +11,7 @@ An automatic test case parser that grabs test cases from Codeforces and feeds it
     - Copy olympic.py in your desired folder where you solve questions
 - If you use "input.txt" and "output.txt"
     - Open Sublime Text -> Preferences -> Browse Packages. Copy the CMD folder here.
-    - Place ip.py in your desired folder where you solve questions
+    - Copy ip.py in your desired folder where you solve questions
 - Open Preferences -> Settings and add this line: "always_prompt_for_file_reload": false
 - Open the Codeforces problem page on Google Chrome (Don't minimize the browser)
 - Open your solution file. Right click and select 'Load Test Cases'
